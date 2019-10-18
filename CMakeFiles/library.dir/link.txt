@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibrary.a  CMakeFiles/library.dir/commands.cpp.o CMakeFiles/library.dir/consumer_out.cpp.o CMakeFiles/library.dir/consumer_file.cpp.o CMakeFiles/library.dir/producer.cpp.o
+/usr/bin/ranlib liblibrary.a

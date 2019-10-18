@@ -1,0 +1,8 @@
+<map id="TEST" name="TEST">
+<area shape="rect" id="node2" href="$classhomework_1_1_producer.html#a1a70062fa3708dd905cb6712d0b94c84" title="homework::Producer\l::add_customer" alt="" coords="107,71,260,112"/>
+<area shape="rect" id="node5" href="$classhomework_1_1_producer.html#aed332c9964cdd0da9d2cd4990f6d257e" title="homework::Producer\l::produce" alt="" coords="107,136,260,177"/>
+<area shape="rect" id="node7" href="$classhomework_1_1_producer.html#afd2a00cc52c65870d163a722eedffe15" title="homework::Producer\l::flush" alt="" coords="107,201,260,243"/>
+<area shape="rect" id="node3" href="$classhomework_1_1_commands.html#a1029bb5d708f2b68f5e29b83f38c7c61" title="homework::Commands\l::empty" alt="" coords="308,5,479,47"/>
+<area shape="rect" id="node4" href="$classhomework_1_1_commands.html#af07ab02df4e704980f12f03d0dc4adde" title="homework::Commands\l::clear" alt="" coords="308,71,479,112"/>
+<area shape="rect" id="node6" href="$classhomework_1_1_commands.html#a650efe8e0bf8a02de9c632f3a0857cba" title="homework::Commands\l::set_current_time" alt="" coords="308,136,479,177"/>
+</map>

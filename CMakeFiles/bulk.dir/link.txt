@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/bulk.dir/main.cpp.o  -o bulk liblibrary.a 

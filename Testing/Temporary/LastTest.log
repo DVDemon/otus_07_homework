@@ -1,0 +1,48 @@
+Start testing: Oct 18 07:55 UTC
+----------------------------------------------------------
+1/1 Testing: gtests
+1/1 Test: gtests
+Command: "/home/travis/build/DVDemon/otus_07_homework/gtests"
+Directory: /home/travis/build/DVDemon/otus_07_homework
+"gtests" start time: Oct 18 07:55 UTC
+Output:
+----------------------------------------------------------
+[==========] Running 5 tests from 5 test cases.
+[----------] Global test environment set-up.
+[----------] 1 test from test_basic
+[ RUN      ] test_basic.basic_test_set
+[       OK ] test_basic.basic_test_set (0 ms)
+[----------] 1 test from test_basic (0 ms total)
+
+[----------] 1 test from test_braces
+[ RUN      ] test_braces.basic_test_set
+[       OK ] test_braces.basic_test_set (1 ms)
+[----------] 1 test from test_braces (1 ms total)
+
+[----------] 1 test from test_brace_in_brace
+[ RUN      ] test_brace_in_brace.basic_test_set
+[       OK ] test_brace_in_brace.basic_test_set (0 ms)
+[----------] 1 test from test_brace_in_brace (0 ms total)
+
+[----------] 1 test from test_brace_incomplete
+[ RUN      ] test_brace_incomplete.basic_test_set
+[       OK ] test_brace_incomplete.basic_test_set (0 ms)
+[----------] 1 test from test_brace_incomplete (0 ms total)
+
+[----------] 1 test from test_brace_incomplete_2
+[ RUN      ] test_brace_incomplete_2.basic_test_set
+[       OK ] test_brace_incomplete_2.basic_test_set (0 ms)
+[----------] 1 test from test_brace_incomplete_2 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 5 test cases ran. (1 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"gtests" end time: Oct 18 07:55 UTC
+"gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 18 07:55 UTC

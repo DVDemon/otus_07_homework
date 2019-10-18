@@ -1,0 +1,9 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$main_8cpp.html#ae28741d396ee168eb51b779d13012d5a" title="isPositiveInteger" alt="" coords="121,19,248,46"/>
+<area shape="rect" id="node3" href="$classhomework_1_1_producer.html#a1a70062fa3708dd905cb6712d0b94c84" title="homework::Producer\l::add_customer" alt="" coords="108,71,261,112"/>
+<area shape="rect" id="node6" href="$classhomework_1_1_producer.html#aed332c9964cdd0da9d2cd4990f6d257e" title="homework::Producer\l::produce" alt="" coords="108,136,261,177"/>
+<area shape="rect" id="node8" href="$classhomework_1_1_producer.html#afd2a00cc52c65870d163a722eedffe15" title="homework::Producer\l::flush" alt="" coords="108,201,261,243"/>
+<area shape="rect" id="node4" href="$classhomework_1_1_commands.html#a1029bb5d708f2b68f5e29b83f38c7c61" title="homework::Commands\l::empty" alt="" coords="309,5,480,47"/>
+<area shape="rect" id="node5" href="$classhomework_1_1_commands.html#af07ab02df4e704980f12f03d0dc4adde" title="homework::Commands\l::clear" alt="" coords="309,71,480,112"/>
+<area shape="rect" id="node7" href="$classhomework_1_1_commands.html#a650efe8e0bf8a02de9c632f3a0857cba" title="homework::Commands\l::set_current_time" alt="" coords="309,136,480,177"/>
+</map>

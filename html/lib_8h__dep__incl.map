@@ -1,0 +1,13 @@
+<map id="lib.h" name="lib.h">
+<area shape="rect" id="node2" href="$commands_8h.html" title="commands.h" alt="" coords="337,80,444,107"/>
+<area shape="rect" id="node7" href="$main_8cpp.html" title="main.cpp" alt="" coords="169,304,250,331"/>
+<area shape="rect" id="node10" href="$tests_8cpp.html" title="tests.cpp" alt="" coords="441,304,522,331"/>
+<area shape="rect" id="node11" href="$producer_8h.html" title="producer.h" alt="" coords="436,229,527,256"/>
+<area shape="rect" id="node3" href="$commands_8cpp.html" title="commands.cpp" alt="" coords="197,155,318,181"/>
+<area shape="rect" id="node4" href="$consumer_8h.html" title="consumer.h" alt="" coords="342,155,439,181"/>
+<area shape="rect" id="node12" href="$producer_8cpp.html" title="producer.cpp" alt="" coords="546,304,651,331"/>
+<area shape="rect" id="node5" href="$consumer__file_8h.html" title="consumer_file.h" alt="" coords="137,229,260,256"/>
+<area shape="rect" id="node8" href="$consumer__out_8h.html" title="consumer_out.h" alt="" coords="285,229,411,256"/>
+<area shape="rect" id="node6" href="$consumer__file_8cpp.html" title="consumer_file.cpp" alt="" coords="5,304,144,331"/>
+<area shape="rect" id="node9" href="$consumer__out_8cpp.html" title="consumer_out.cpp" alt="" coords="275,304,416,331"/>
+</map>

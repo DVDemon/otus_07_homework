@@ -1,0 +1,9 @@
+Package: 07_homework
+Version: 0.0.4
+Section: devel
+Priority: optional
+Architecture: amd64
+Installed-Size: 92
+Maintainer: ddzuba@yandex.ru
+Description: 07_homework built using CMake
+
