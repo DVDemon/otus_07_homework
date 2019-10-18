@@ -35,7 +35,7 @@ namespace homework{
         public:
             Producer(size_t size);
             // Подписать еще одного наблюдателя
-            void subscribe(Consumer*);
+            void add_customer(Consumer*);
             // Обработать еще одну команду
             void produce(std::string str);
             // Принудительно дослать все команды в буффере

@@ -9,7 +9,7 @@ TEST(test_basic, basic_test_set)
 
     homework::Producer producer(3);
     homework::ConsumerOut consumer_out(std::cout);
-    producer.subscribe(&consumer_out);
+    producer.add_customer(&consumer_out);
 
     producer.produce(std::string("cmd1"));
     producer.produce(std::string("cmd2"));
@@ -29,7 +29,7 @@ TEST(test_braces, basic_test_set)
 
     homework::Producer producer(3);
     homework::ConsumerOut consumer_out(std::cout);
-    producer.subscribe(&consumer_out);
+    producer.add_customer(&consumer_out);
 
     producer.produce(std::string("cmd1"));
     producer.produce(std::string("cmd2"));
@@ -45,7 +45,7 @@ TEST(test_braces, basic_test_set)
     ASSERT_TRUE(output==std::string(
         "bulk: cmd1, cmd2, cmd3\nbulk: cmd4, cmd5, cmd6, cmd7\n"
     ));
-    ASSERT_TRUE(true);
+
 }
 
 TEST(test_brace_in_brace, basic_test_set)
@@ -54,7 +54,7 @@ TEST(test_brace_in_brace, basic_test_set)
 
     homework::Producer producer(3);
     homework::ConsumerOut consumer_out(std::cout);
-    producer.subscribe(&consumer_out);
+    producer.add_customer(&consumer_out);
 
     producer.produce(std::string("{"));
     producer.produce(std::string("cmd1"));
@@ -80,7 +80,7 @@ TEST(test_brace_incomplete, basic_test_set)
 
     homework::Producer producer(3);
     homework::ConsumerOut consumer_out(std::cout);
-    producer.subscribe(&consumer_out);
+    producer.add_customer(&consumer_out);
 
     producer.produce(std::string("cmd1"));
     producer.produce(std::string("cmd2"));
@@ -94,6 +94,29 @@ TEST(test_brace_incomplete, basic_test_set)
     std::string output = testing::internal::GetCapturedStdout();
     ASSERT_TRUE(output==std::string(
         "bulk: cmd1, cmd2, cmd3\n"
+    ));
+}
+
+TEST(test_brace_incomplete_2, basic_test_set)
+{
+    testing::internal::CaptureStdout();
+
+    homework::Producer producer(3);
+    homework::ConsumerOut consumer_out(std::cout);
+    producer.add_customer(&consumer_out);
+
+    producer.produce(std::string("cmd1"));
+    producer.produce(std::string("cmd2"));
+    producer.produce(std::string("{"));
+    producer.produce(std::string("cmd3"));
+    producer.produce(std::string("cmd4"));
+    producer.produce(std::string("cmd5"));
+    producer.produce(std::string("cmd6"));
+    producer.produce(std::string("cmd7"));
+    producer.flush();
+    std::string output = testing::internal::GetCapturedStdout();
+    ASSERT_TRUE(output==std::string(
+        "bulk: cmd1, cmd2\n"
     ));
 }
 
